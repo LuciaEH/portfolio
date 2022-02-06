@@ -2,26 +2,73 @@
 <html lang="en">
 <head>
       <meta charset="UTF-8">
+      <meta name="description" content="Front-end web developer portfolio">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
+      <title>Front End Developer - Lucia Esquivel</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
       <link rel="stylesheet" href="./src/style.css">
-      <style>
-            .greetings{
-                  margin-top: 160px;
-            }
-      </style>
 </head>
 <body>
-<section class="greetings">
-      <h2>👋🏼 Hello! I am</h2>
-      <h1>Lucia Esquivel</h1>
-      <h3>Designer and Front-end developer, based in Europe 🇪🇺</h3>
- </section>
-<section class="buttons">
-      <a href="about.html#contact" class="btn contact-btn">Contact me</a>
-      <a href="./about.html" class="btn">About me</a>
+<section class="heading">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">👩🏼‍💻</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+        <a class="nav-link" href="./about.html">About Me</a>
+        <a class="nav-link" href="./about.html#contact">Contact Me</a>
+      </div>
+    </div>
+  </div>
+</nav>
 </section>
-
+<section class="greetings m-5">
+      <h2 class="">👋🏼 Hello! I'm</h2>
+      <h1>Lucia Esquivel</h1>
+      <h5>Designer and Front-end developer, based in Europe 🇪🇺</h5>
+ </section>
+<section class="buttons mb-5">
+      <a href="./about.html#contact" class="btn contact-btn">Contact me</a> 
+</section>
+<section class="projects">
+      <div class="container">
+            <div class="row m-5">
+                  <div class="col-md-4">
+                        <img src="./img/yogurt-project.png" alt="Yogurt Project" class="img-fluid">
+                  </div>
+                  <div class="col-md-8">
+                        <h3>Project name </h3>
+                        <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, aperiam tempore! Voluptate nostrum voluptatem earum maxime beatae id voluptas corporis. Delectus eius veritatis quis sit, molestiae illum placeat mollitia debitis.</p>
+                        <a href="./projects/yogurt.html" class="btn">Learn more about this</a>
+                  </div>
+            </div>
+            <div class="row m-5">
+                  <div class="col-md-8">
+                        <h3>Project name</h3>
+                        <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, aperiam tempore! Voluptate nostrum voluptatem earum maxime beatae id voluptas corporis. Delectus eius veritatis quis sit, molestiae illum placeat mollitia debitis.</p>
+                        <a href="./projects/weather.html" class="btn">Learn more about this</a>
+                  </div>
+                  <div class="col-md-4">
+                        <img src="./img/weather-project.png" alt="Weather Project" class="img-fluid">
+                  </div>
+            </div>
+            <div class="row m-5">
+                  <div class="col-md-4">
+                        <img src="./img/yogurt-project.png" alt="Yogurt Project" class="img-fluid">
+                  </div>
+                  <div class="col-md-8">
+                        <h3>Project name</h3>
+                        <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, aperiam tempore! Voluptate nostrum voluptatem earum maxime beatae id voluptas corporis. Delectus eius veritatis quis sit, molestiae illum placeat mollitia debitis.</p>
+                        <a href="./projects/yogurt.html" class="btn">Learn more about this</a>
+                  </div>
+            </div>
+      </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
