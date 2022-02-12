@@ -1,43 +1,26 @@
 
             :root{
-                  --primary-color:#885DF1;
+                  --primary-color:#292f32;
                   --box-shadow:1px 1px 10px gray;
             }
-body{
-      text-align: center;
-}
-            h1{
-                  font-size: 80px;
-                  margin: 0 auto;
-            }
-            h2{
-                  font-size: 40px;
-            }
-            a{
-                  color: var(--primary-color);
-                  text-decoration: none;
-            }
-            a:hover{
-                  text-decoration: underline;
-            }
-            .buttons{
-                  display: flex;
-                  justify-content: center;
-            }
-            .btn{
-                  border: 1px solid var(--primary-color);
-                  padding: 15px;
-                  border-radius: 5px;
-                  color:var(--primary-color);
-                  margin: 30px 20px;
-                  box-shadow:var(--box-shadow);
-            }
-
-            .contact-btn{
-                  background-color: var(--primary-color);
-                  color: white;
-            }
+        
            
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+
+           
+           
+           
+           
+      
            
            
 
