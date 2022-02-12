@@ -7,34 +7,68 @@
            body {
                  font-family: 'Work Sans', sans-serif;;
            }
-           .nav-link{
-                 justify-content: flex-end;
-           }
+      
+      
+      
            .line {
                  width: 80px;
                  border: 1px solid #292f32;
                  display: inline-block;
            }
            .hero h1 {
-margin-top: 90px;
-margin-left: 80px;
-margin-bottom: 90px;
-font-family: 'Space Grotesk', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 80px;
-line-height: 88px;
+                  margin-top: 90px;
+                  margin-left: 80px;
+                  margin-bottom: 90px;
+                  font-family: 'Space Grotesk', sans-serif;
+                  font-style: normal;
+                  font-weight: bold;
+                  font-size: 80px;
+                  line-height: 88px;
            }
            .designer{
                  color: white;
-                  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+                  text-shadow: -1px 0 #292f32, 0 1px #292f32, 1px 0 #292f32, 0 -1px #292f32;
            }
-            .cta-contact {
+           .developer{
+                 color: #292f32;
+           }
+            .cta {
                  width: 285px;
-                 margin-bottom: 90px;
                  border: none;
                  box-shadow: 0px 10px 20px rgba(48, 48, 48, 0.25);
+                 margin: 0 auto;
+                 display: block;
            }
+          .cta:hover {
+            background-color: #EE8275;
+            color: white;
+          }
+           .work-marker{
+                 text-align: end;
+                 margin-top: 90px;
+           }
+           .row{
+                 margin-top: 30px;
+           }
+           .about{
+                 margin-top: 90px;
+           }
+           .about-container{
+                 margin-top: 30px;
+                 background-color: var(--primary-color);
+                 color: white;
+                 padding: 100px 300px;
+                 text-align: center;
+           }
+           .profile-pic{
+                 border-radius: 56px;
+                 width: 144px;
+                 display: block;
+                 margin: 0 auto;
+                 margin-bottom: 30px;
+           }
+
+
            
            
            
