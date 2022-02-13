@@ -70,4 +70,16 @@
                  display: block;
                  margin: 0 auto;
                  margin-bottom: 30px;
-                 
+           }
+           .footer{
+                 text-align: center;
+                 margin: 30px 0px;
+           }
+           .linkedin {
+                 text-decoration: none;
+                 color:#EE8275;
+           }
+           .linkedin:hover{
+                 color: #EE8275;
+                 text-decoration: underline;
+           }
