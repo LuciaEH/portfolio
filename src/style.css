@@ -1,15 +1,13 @@
 
             :root{
                   --primary-color:#292f32;
-                  --box-shadow:1px 1px 10px gray;
+                  --box-shadow:10px 10px 20px rgba(48, 48, 48, 0.25);
             }
         
            body {
                  font-family: 'Work Sans', sans-serif;;
            }
-      
-      
-      
+
            .line {
                  width: 80px;
                  border: 1px solid #292f32;
@@ -30,12 +28,12 @@
                   text-shadow: -1px 0 #292f32, 0 1px #292f32, 1px 0 #292f32, 0 -1px #292f32;
            }
            .developer{
-                 color: #292f32;
+                 color: var(--primary-color);
            }
             .cta {
                  width: 285px;
                  border: none;
-                 box-shadow: 0px 10px 20px rgba(48, 48, 48, 0.25);
+                 box-shadow: 10px 10px 20px rgba(48, 48, 48, 0.25);
                  margin: 0 auto;
                  display: block;
            }
@@ -50,6 +48,11 @@
            .row{
                  margin-top: 30px;
            }
+            .work-img {
+                  box-shadow: var(--box-shadow);
+                  width: 413.33px;
+                  
+            }
            .about{
                  margin-top: 90px;
            }
@@ -59,6 +62,7 @@
                  color: white;
                  padding: 100px 300px;
                  text-align: center;
+                 margin-bottom: 30px;
            }
            .profile-pic{
                  border-radius: 56px;
@@ -66,22 +70,4 @@
                  display: block;
                  margin: 0 auto;
                  margin-bottom: 30px;
-           }
-
-
-           
-           
-           
-           
-           
-           
-           
-
-           
-           
-           
-           
-      
-           
-           
-
+                 
