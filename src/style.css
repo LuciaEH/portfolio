@@ -33,11 +33,11 @@
                   font-size: 80px;
                   line-height: 88px;
            }
-           .designer{
+           .designer {
                  color: white;
                   text-shadow: -1px 0 #292f32, 0 1px #292f32, 1px 0 #292f32, 0 -1px #292f32;
            }
-           .developer{
+           .developer .hello-ciao {
                  color: var(--primary-color);
            }
             .cta {
